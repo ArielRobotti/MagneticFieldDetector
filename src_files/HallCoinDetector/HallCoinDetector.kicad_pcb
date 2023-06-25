@@ -1054,7 +1054,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-92_Inline_W4.0mm_Horizontal_FlatSideDown" (layer "F.Cu")
     (tstamp 803116fc-759b-4dd8-8e58-018d7e453833)
-    (at 109.22 115.57 -90)
+    (at 108.21 118.1275 -90)
     (descr "TO-92 horizontal, leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
     (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
     (property "Sheetfile" "HallCoinDetector.kicad_sch")
