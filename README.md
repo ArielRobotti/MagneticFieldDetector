@@ -17,11 +17,13 @@ To accommodate the power supply requirements of the circuit components, an addit
 4. Hold the Magnetic Field Polarity Detector near the target area.
 5. Observe the vibration patterns:
 - Intermittent vibrations indicate the presence of a magnetic field in the south-to-north direction.
--Continuous vibrations indicate the presence of a magnetic field in the north-to-south direction.
+- Continuous vibrations indicate the presence of a magnetic field in the north-to-south direction.
 6. Move the detector away from the proximity of the magnetic object to stop the vibrations.
 7. Turn off the device when not in use to conserve battery life.
   
 ## Specifications
 - Dimensions: 25mm x 30mm
 - Power Supply: 3V battery (included)
- -Power Switch: On/Off control
+- Power Switch: On/Off control
+
+
