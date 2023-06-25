@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TPS61070")(type "KiCad")(uri "C:/Users/54223/Documents/KiCad/mago/Lib/TPS61070.kicad_sym")(options "")(descr ""))
+  (lib (name "New_Library")(type "KiCad")(uri "C:/Users/54223/Documents/KiCad/mago/Lib/New_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "HallSensor")(type "KiCad")(uri "C:/Users/54223/Documents/KiCad/mago/Lib/HallSensor.kicad_sym")(options "")(descr ""))
+)
