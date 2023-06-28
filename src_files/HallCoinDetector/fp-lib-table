@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Batery Holder")(type "KiCad")(uri "C:/Users/54223/Documents/KiCad/MagneticFieldDetector/src_files/Lib/Batery Holder.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "C:/Users/54223/Documents/KiCad/MagneticFieldDetector/src_files/Lib/Library.pretty")(options "")(descr ""))
+  (lib (name "cr1616")(type "KiCad")(uri "C:/Users/54223/Documents/KiCad/MagneticFieldDetector/src_files/Lib/Batery Holder.pretty/cr1616.pretty")(options "")(descr ""))
+)
