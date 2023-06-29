@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "C:\\Users\\54223\\Documents\\KiCad\\MagneticFieldDetector\\src_files\\HallCoinDetector\\HallCoinDetector.kicad_sch")
-    (date "28/6/2023 05:15:09")
+    (date "29/6/2023 15:51:15")
     (tool "Eeschema 7.0.5")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
@@ -82,7 +82,7 @@
       (tstamps "42b280b9-7735-4ea0-a999-73bfaed93bb6"))
     (comp (ref "D1")
       (value "1N4148")
-      (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
+      (footprint "Diode_SMD:D_0805_2012Metric")
       (datasheet "http://www.microsemi.com/document-portal/doc_view/11580-lds-0239")
       (fields
         (field (name "Sim.Device") "D")
@@ -98,7 +98,7 @@
       (tstamps "2756a984-b549-4d27-ac14-b3ab54c176d5"))
     (comp (ref "D2")
       (value "1N4148")
-      (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
+      (footprint "Diode_SMD:D_0805_2012Metric")
       (datasheet "http://www.microsemi.com/document-portal/doc_view/11580-lds-0239")
       (fields
         (field (name "Sim.Device") "D")
@@ -552,13 +552,13 @@
       (node (ref "D3") (pin "1") (pinfunction "K") (pintype "passive"))
       (node (ref "L1") (pin "1") (pinfunction "1") (pintype "passive"))
       (node (ref "M1") (pin "1") (pinfunction "+") (pintype "passive"))
-      (node (ref "SW1") (pin "1") (pinfunction "A") (pintype "passive"))
-      (node (ref "SW1") (pin "2") (pinfunction "B") (pintype "passive"))
+      (node (ref "SW1") (pin "3") (pinfunction "C") (pintype "passive"))
       (node (ref "U2") (pin "3") (pinfunction "EN") (pintype "input"))
       (node (ref "U2") (pin "6") (pinfunction "Bat") (pintype "input")))
     (net (code "3") (name "/BAT")
       (node (ref "BT1") (pin "1") (pinfunction "+") (pintype "passive"))
-      (node (ref "SW1") (pin "3") (pinfunction "C") (pintype "passive")))
+      (node (ref "SW1") (pin "1") (pinfunction "A") (pintype "passive"))
+      (node (ref "SW1") (pin "2") (pinfunction "B") (pintype "passive")))
     (net (code "4") (name "GND")
       (node (ref "BT1") (pin "2") (pinfunction "-") (pintype "passive"))
       (node (ref "C1") (pin "2") (pintype "passive"))
