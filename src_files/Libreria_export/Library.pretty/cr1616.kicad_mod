@@ -1,0 +1,56 @@
+(footprint "cr1616" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (property "Sheetfile" "HallCoinDetector.kicad_sch")
+  (property "Sheetname" "")
+  (property "ki_description" "Single-cell battery")
+  (property "ki_keywords" "battery cell")
+  (attr smd)
+  (fp_text reference "REF**" (at 5.588 -3.683 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp a10cb1e9-7cb7-4644-b863-cb8f0b832a8a)
+  )
+  (fp_text value "3Volts" (at -0.381 6.731 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 5b3a4f1b-3f39-4d8c-ba66-88b39d18a54a)
+  )
+  (fp_line (start -10.668 -4.572) (end -10.668 4.572)
+    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp 7b28b752-e9c8-41a2-9509-b0a4185ecb87))
+  (fp_line (start -10.668 4.572) (end -4.7625 10.668)
+    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp 68404892-ec55-4785-ac2e-c91f172d78ed))
+  (fp_line (start 4.761226 10.668) (end -4.7625 10.668)
+    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp ca88cd14-461e-4813-8802-c83d419002b4))
+  (fp_line (start 10.666726 -4.572) (end 10.666726 4.572)
+    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp fce05f08-9295-4cee-abd0-06721f1fcd30))
+  (fp_line (start 10.666726 4.572) (end 4.761226 10.668)
+    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp 5e1612c3-35ce-4057-9028-df3f2e9a8290))
+  (fp_arc (start -10.668 -4.572) (mid -7.904886 -8.32992) (end -3.494029 -6.81298)
+    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp 970d8429-2c1e-4423-98c4-c8c71ea9b7e2))
+  (fp_arc (start -0.000637 -4.610211) (mid -2.075549 -5.191075) (end -3.494028 -6.81298)
+    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp ba31b98c-364d-462f-81fd-7f10319b8cfa))
+  (fp_arc (start 3.492754 -6.81298) (mid 2.074275 -5.191074) (end -0.000637 -4.610211)
+    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp 07b4f140-9f16-4747-9c0d-3bcef573e092))
+  (fp_arc (start 3.492755 -6.81298) (mid 7.903612 -8.32992) (end 10.666726 -4.572)
+    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp 2a211f5e-51e8-42e1-a744-10b842e351ee))
+  (fp_circle (center 0 -0.127) (end -8.89 0)
+    (stroke (width 0.1) (type default)) (fill none) (layer "F.Fab") (tstamp 51bd9dcc-f262-487a-8474-84e63f513dfb))
+  (pad "" smd roundrect (at 0 10.668 90) (size 1.4 4) (property pad_prop_bga) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (thermal_bridge_angle 45) (tstamp 0788af2b-78aa-4631-8d9a-1ba36097978e))
+  (pad "1" thru_hole oval (at -10.541 0.127 90) (size 2.4 1.2) (drill oval 1.8 0.6) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 45) (tstamp 0ac5210b-25bc-4176-8dee-cf0dd81262dc))
+  (pad "1" thru_hole oval (at 10.541 0.127 90) (size 2.4 1.2) (drill oval 1.8 0.6) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 45) (tstamp a2e4797e-47da-4b2e-8623-17e0b0fdef36))
+  (pad "2" smd circle (at 0 0) (size 9 9) (layers "F.Cu" "F.Mask") (tstamp 840f878b-35bc-4761-a12a-00be07f0dbdf))
+  (group "" (id 4ab80b24-16c9-4619-bc6c-dbacf4017a41)
+    (members
+      07b4f140-9f16-4747-9c0d-3bcef573e092
+      2a211f5e-51e8-42e1-a744-10b842e351ee
+      5e1612c3-35ce-4057-9028-df3f2e9a8290
+      68404892-ec55-4785-ac2e-c91f172d78ed
+      7b28b752-e9c8-41a2-9509-b0a4185ecb87
+      970d8429-2c1e-4423-98c4-c8c71ea9b7e2
+      ba31b98c-364d-462f-81fd-7f10319b8cfa
+      ca88cd14-461e-4813-8802-c83d419002b4
+      fce05f08-9295-4cee-abd0-06721f1fcd30
+    )
+  )
+)

@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 44,
-    "active_layer_preset": "All Layers",
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -10,7 +10,7 @@
     "opacity": {
       "images": 0.6,
       "pads": 1.0,
-      "tracks": 0.8999999761581421,
+      "tracks": 1.0,
       "vias": 1.0,
       "zones": 0.6
     },
@@ -68,7 +68,7 @@
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "HallCoinDetector.kicad_prl",
+    "filename": "HallCoinDetectorPanelizado.kicad_prl",
     "version": 3
   },
   "project": {
